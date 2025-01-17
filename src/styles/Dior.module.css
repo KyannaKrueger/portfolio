@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #04030F;
+    color: white;
+    margin: 0 auto;
+    padding-left: 5em;
+    padding-right: 5em;   
+}
+
+.heading{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0em;
+}
+
+.subHeading{
+    font-family: "Karla", sans-serif;
+}
+
+.diorHead {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.diorBody {
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+
+.image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabletImage {
+    width: 40%;      
+    margin: 0 auto;   
+    display: block;   
+}
+
+.p {
+    text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    font-family: "Karla", sans-serif;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .p {
+        text-align: center;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    }
