@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #04030F;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 5em;
+    border-bottom: solid 0.1em white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    font-family: "Karla", sans-serif;
+}
+
+.navLogo {
+    width: 3em;
+}
+
+.navOptions{
+    display: flex;
+    flex-direction: row;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color: #9C182F;
+}

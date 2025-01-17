@@ -1,0 +1,13 @@
+.back {
+    color: white;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    font-size: large;
+}
+
+.back:hover {
+    color: #9C182F;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    font-size: large;
+}
