@@ -58,10 +58,28 @@
     margin-bottom: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .p {
         text-align: center;
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 10px;
+    }
+
+    .heading{
+        font-family: "Playfair Display", serif;
+        margin-bottom: 0em;
+        font-size: 16px;
+    }
+    
+    .subHeading{
+        font-family: "Karla", sans-serif;
+        font-size: 12px;
+    }
+    
+    .tabletImage {
+        width: 40%;      
+        margin: 0 auto;   
+        display: block;   
     }
     }

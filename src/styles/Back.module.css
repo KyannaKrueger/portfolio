@@ -11,3 +11,12 @@
     font-family: "Karla", sans-serif;
     font-size: large;
 }
+
+@media (max-width: 768px) {
+    .back {
+        color: white;
+        text-decoration: none;
+        font-family: "Karla", sans-serif;
+        font-size: small;
+    }  
+}
