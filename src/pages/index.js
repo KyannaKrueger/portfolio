@@ -9,12 +9,9 @@ export default function Home() {
     <div>
       <Nav />
       <h1>Welcome to My Portfolio</h1>
-      <p>Check out my projects:</p>
-      <ul>
-        <li>
-          <Link href="/dior">Dior Poster Project</Link>
-        </li>
-      </ul>
+      <p>This site is currently under construction. Come back soon and check out my behance portfolio for now!</p>
+      <a href="https://www.behance.net/kyannakrueger">Behance</a>
+      {/*<Link href="/dior">Dior Poster Project</Link>*/}
     </div>
   );
 }

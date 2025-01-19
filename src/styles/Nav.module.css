@@ -62,7 +62,7 @@
     .navOptions {
       display: none;
       flex-direction: column;
-      width: 100%;
+      width: 90%;
       text-align: center;
       background-color: #04030F;
       position: absolute;

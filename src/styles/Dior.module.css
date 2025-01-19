@@ -3,9 +3,9 @@
     flex-direction: column;
     background-color: #04030F;
     color: white;
-    margin: 0 auto;
+    margin: 0 auto; 
     padding-left: 5em;
-    padding-right: 5em;   
+    padding-right: 5em;  
 }
 
 .heading{
@@ -15,6 +15,11 @@
 
 .subHeading{
     font-family: "Karla", sans-serif;
+}
+
+.pHeading {
+    font-family: "Karla", sans-serif;
+    width: 40rem;
 }
 
 .diorHead {
@@ -47,6 +52,7 @@
     text-align: center;
     padding-left: 10em;
     padding-right: 10em;
+    padding-bottom: 1em;
     font-family: "Karla", sans-serif;
 }
 
@@ -59,11 +65,34 @@
 }
 
 @media (max-width: 768px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        background-color: #04030F;
+        color: white;
+        margin: 0 auto; 
+        padding-left: 2em;
+        padding-right: 2em;  
+    }
+
+    .heading{
+        font-family: "Playfair Display", serif;
+        margin-bottom: 0em;
+        font-size: 18px;
+    }
+
+    .pHeading {
+        font-family: "Karla", sans-serif;
+        width: 80%;
+        font-size: 14px;
+    }
+
     .p {
         text-align: center;
         padding-left: 2em;
         padding-right: 2em;
         font-size: 10px;
+        font-size: 14px;
     }
 
     .heading{
