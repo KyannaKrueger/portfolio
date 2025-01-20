@@ -27,8 +27,8 @@ export default function Nav() {
 
       <ul className={`${styles.navOptions} ${isMenuOpen ? styles.show : ""}`}>
         <li className={styles.navList}><Link href="/" className={styles.navLink}>Home</Link></li>
-        <li className={styles.navList}><Link href="/" className={styles.navLink}>About</Link></li>
-        <li className={styles.navList}><Link href="/" className={styles.navLink}>Contact</Link></li>
+        <li className={styles.navList}><Link href="/about" className={styles.navLink}>About</Link></li>
+        <li className={styles.navList}><Link href="/contact" className={styles.navLink}>Contact</Link></li>
       </ul>
     </nav>
   );
