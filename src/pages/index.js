@@ -14,6 +14,20 @@ export default function Home() {
         <p className={styles.p}>This site is currently under construction. Come back soon and check out my behance portfolio for now!</p>
         <a href="https://www.behance.net/kyannakrueger">Behance</a>
         {/*<Link href="/dior">Dior Poster Project</Link>*/}
+        <div>
+          <h2 className={styles.projects}>Projects</h2>
+            <div className={styles.filter}>
+
+            </div>
+            <div className={styles.gallery}>
+              <Link href="/dior">
+                <img src="Dior 1920x1080.png"
+                alt="A Dior exhibition poster at a bus stop"
+                className={styles.project}
+                />
+              </Link>
+            </div>
+        </div>
       </div>
       </div>
   );
