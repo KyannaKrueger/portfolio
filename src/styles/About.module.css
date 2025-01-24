@@ -1,7 +1,8 @@
 .main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #04030F;
+    align-items: center;
     color: white;
     margin: 0 auto; 
     padding-left: 5em;
@@ -13,19 +14,75 @@
     font-family: 'Playfair Display', serif;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10em;
+}
+
 .p {
     color: white;
     font-family: "Karla", sans-serif;
 }
 
+.pfp img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
 @media (max-width: 768px) {
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         background-color: #04030F;
         color: white;
-        margin: 0 auto; 
+        margin: 0 auto;
         padding-left: 2em;
-        padding-right: 2em;  
+        padding-right: 2em;
+        align-items: center; 
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: flex-start; 
+        width: 70%;
+        text-align: center;
+        background-color: #232329;
+        border-radius: 10%;
+        margin: 5em auto;
+        padding: 2em;
+    }
+
+    .pfp {
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically if needed */
+        order: -1;
+        margin-bottom: -3em;
+        margin-top: 2em;
+    }
+
+    .pfp img {
+        width: 30%; 
+        height: auto; 
+        border-radius: 50%; 
+        object-fit: cover;
+    }
+
+    .head {
+        margin-top: 0; 
+        color: white;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .p {
+        color: white;
+        font-family: "Karla", sans-serif;
+        text-align: center;
     }
 }

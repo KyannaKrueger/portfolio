@@ -18,6 +18,26 @@
     font-family: "Karla", sans-serif;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+.project {
+    width: 500px;
+    height: auto; 
+    object-fit: cover;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
     .main{
         display: flex;
@@ -27,5 +47,20 @@
         margin: 0 auto; 
         padding-left: 2em;
         padding-right: 2em;  
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .project {
+        width: 500px;
+        height: auto; 
+        object-fit: cover;
     }
 }
