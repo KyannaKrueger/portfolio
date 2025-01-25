@@ -49,9 +49,9 @@
 }
 
 .p {
-    text-align: center;
-    padding-left: 10em;
-    padding-right: 10em;
+    text-align: left;
+    padding-left: 0em;
+    width: 40%;
     padding-bottom: 1em;
     font-family: "Karla", sans-serif;
 }
