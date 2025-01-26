@@ -1,0 +1,147 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #04030F;
+    color: white;
+    margin: 0 auto; 
+    padding-left: 5em;
+    padding-right: 5em;  
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+
+.image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabletImage {
+    width: 40%;
+    height: 40%;      
+    margin: 0 auto;   
+    display: block;   
+}
+
+.heading{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0em;
+}
+
+.subHeading{
+    font-family: "Karla", sans-serif;
+    padding-bottom: 1em;
+}
+
+.p {
+    text-align: left;
+    padding-left: 0em;
+    width: 80%;
+    padding-bottom: 1em;
+    font-family: "Karla", sans-serif;
+}
+
+.can {
+    width: 30%;      
+    height: 30%;
+    margin: 0 auto;   
+    display: block;   
+}
+
+.inspoImgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.inspoImg {
+    width: 250px;
+    height: auto;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: #04030F;
+        color: white;
+        margin: 0 auto;
+        max-width: 800px; 
+        padding: 1em;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+    }
+    
+    .image {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .tabletImage {
+        width: 50%;      
+        margin: 0 auto;   
+        display: block;   
+    }
+    
+    .heading{
+        font-family: "Playfair Display", serif;
+        margin-bottom: 0em;
+        text-align: center;
+    }
+    
+    .subHeading{
+        font-family: "Karla", sans-serif;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+    
+    .p {
+        text-align: center;
+        padding-bottom: 1em;
+        font-family: "Karla", sans-serif;
+        width: 100%;
+    }
+    
+    .tabletImage {
+        width: 40%;      
+        height: 40%;
+        margin: 0 auto;   
+        display: block;   
+    }
+    
+    .inspoImgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 2em;
+    }
+    
+    .inspoImg {
+        width: 100px;
+        height: auto;
+    }
+    
+    .back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+}
