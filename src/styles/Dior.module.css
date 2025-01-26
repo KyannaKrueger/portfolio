@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     flex-direction: column;
     background-color: #04030F;
@@ -8,33 +8,10 @@
     padding-right: 5em;  
 }
 
-.heading{
-    font-family: "Playfair Display", serif;
-    margin-bottom: 0em;
-}
-
-.subHeading{
-    font-family: "Karla", sans-serif;
-}
-
-.pHeading {
-    font-family: "Karla", sans-serif;
-    width: 40rem;
-}
-
-.diorHead {
+.body{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-}
-
-.diorBody {
-    font-family: "Karla", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    text-align: center; 
+    flex-direction: row;
+    padding-top: 2em;
 }
 
 .image {
@@ -48,67 +25,122 @@
     display: block;   
 }
 
+.heading{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0em;
+}
+
+.subHeading{
+    font-family: "Karla", sans-serif;
+    padding-bottom: 1em;
+}
+
 .p {
     text-align: left;
     padding-left: 0em;
-    width: 40%;
-    padding-bottom: 1em;
+    width: 80%;
+    padding-bottom: 2em;
     font-family: "Karla", sans-serif;
+}
+
+.tabletImage {
+    width: 30%;      
+    height: 30%;
+    margin: 0 auto;   
+    display: block;   
+}
+
+.inspoImgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+
+.inspoImg {
+    width: 250px;
+    height: auto;
 }
 
 .back {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 @media (max-width: 768px) {
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         background-color: #04030F;
         color: white;
-        margin: 0 auto; 
-        padding-left: 2em;
-        padding-right: 2em;  
+        margin: 0 auto;
+        max-width: 800px; 
+        padding: 1em;
     }
 
+    .body{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+    }
+    
+    .image {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .tabletImage {
+        width: 50%;      
+        margin: 0 auto;   
+        display: block;   
+    }
+    
     .heading{
         font-family: "Playfair Display", serif;
         margin-bottom: 0em;
-        font-size: 18px;
-    }
-
-    .pHeading {
-        font-family: "Karla", sans-serif;
-        width: 80%;
-        font-size: 14px;
-    }
-
-    .p {
         text-align: center;
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: 10px;
-        font-size: 14px;
-    }
-
-    .heading{
-        font-family: "Playfair Display", serif;
-        margin-bottom: 0em;
-        font-size: 16px;
     }
     
     .subHeading{
         font-family: "Karla", sans-serif;
-        font-size: 12px;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+    
+    .p {
+        text-align: center;
+        padding-bottom: 1em;
+        font-family: "Karla", sans-serif;
+        width: 100%;
     }
     
     .tabletImage {
         width: 40%;      
+        height: 40%;
         margin: 0 auto;   
         display: block;   
     }
+    
+    .inspoImgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 2em;
     }
+    
+    .inspoImg {
+        width: 100px;
+        height: auto;
+    }
+    
+    .back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+}
