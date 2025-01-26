@@ -55,7 +55,7 @@
     
     .gallery {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     
     .project {
