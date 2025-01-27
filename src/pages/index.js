@@ -16,7 +16,7 @@ export default function Home() {
           Come back soon and check out my behance portfolio for now!</p>
           <a href="https://www.behance.net/kyannakrueger" className={styles.link}>Behance</a>
           <h2 className={styles.projects}>Projects</h2>
-            <div className={styles.filter}>
+          <div className={styles.filter}>
               <button className={styles.btn}>
                 Graphic Design
               </button>
