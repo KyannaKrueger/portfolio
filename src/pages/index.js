@@ -14,7 +14,6 @@ export default function Home() {
         <p className={styles.p}>This site is currently under construction. I am adding projects as you read!<br/>
         Come back soon and check out my behance portfolio for now!</p>
         <a href="https://www.behance.net/kyannakrueger">Behance</a>
-        {/*<Link href="/dior">Dior Poster Project</Link>*/}
         <div>
           <h2 className={styles.projects}>Projects</h2>
             <div className={styles.filter}>
@@ -30,6 +29,12 @@ export default function Home() {
               <Link href="/sparq">
                 <img src="sparqMockup2.png"
                 alt="Cans of an alchoholic beverage in an ice bucket"
+                className={styles.project}
+                />
+              </Link>
+              <Link href="/vow">
+                <img src="VOW.png"
+                alt="Magazine collection"
                 className={styles.project}
                 />
               </Link>

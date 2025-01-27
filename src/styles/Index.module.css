@@ -26,10 +26,11 @@
 .gallery {
     display: flex;
     flex-direction: row;
+    gap: 2em;
 }
 
 .project {
-    width: 500px;
+    width: 450px;
     height: auto; 
     object-fit: cover;
 }
