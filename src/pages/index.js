@@ -10,14 +10,22 @@ export default function Home() {
     <div>
       <Nav />
       <div className={styles.main}>
-        <h1 className={styles.head}>Welcome to My Portfolio</h1>
-        <p className={styles.p}>This site is currently under construction. I am adding projects as you read!<br/>
-        Come back soon and check out my behance portfolio for now!</p>
-        <a href="https://www.behance.net/kyannakrueger">Behance</a>
-        <div>
+        <div className={styles.intro}>
+          <h1 className={styles.head}>Welcome to My Portfolio</h1>
+          <p className={styles.p}>This site is currently under construction. I am adding projects as you read!<br/>
+          Come back soon and check out my behance portfolio for now!</p>
+          <a href="https://www.behance.net/kyannakrueger" className={styles.link}>Behance</a>
           <h2 className={styles.projects}>Projects</h2>
             <div className={styles.filter}>
-
+              <button className={styles.btn}>
+                Graphic Design
+              </button>
+              <button className={styles.btnDisabled}>
+                UI/UX
+              </button>
+              <button className={styles.btnDisabled}>
+                Motion Graphics
+              </button>
             </div>
             <div className={styles.gallery}>
               <Link href="/dior">
