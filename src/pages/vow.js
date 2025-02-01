@@ -7,7 +7,7 @@ export default function Vow() {
     <div>
       <Nav />
       <div className={styles.main}>
-        <img src="VOW.png"
+        <img src="VOW.1.png"
             alt="Wedding Magazines"
             className={styles.image}
         />
@@ -15,8 +15,8 @@ export default function Vow() {
           <div className={styles.writing}>
             <h1 className={styles.heading}>VOW Magazine</h1>
             <p  className={styles.subHeading}>MAGAZINE | GRAPHIC DESIGN | JANUARY 2025</p>
-            <p className={styles.p}>"VOW" is a chic and elegant wedding magazine that celebrates the artistry and innovation of the bridal world. From spotlighting the latest wedding dress designers to unveiling emerging trends, VOW is where timeless romance meets contemporary style. A source of inspiration for modern brides seeking to craft their dream wedding.</p>
-            <p className={styles.p}>The magazine covers are designed with brides in mind, aiming to inspire and excite readers as they plan their big day. The elegant typography complements the romantic theme, exuding sophistication and timeless charm.</p>
+            <p className={styles.p}>VOW is a chic and elegant wedding magazine that celebrates the artistry and innovation of the bridal world. From spotlighting the latest wedding dress designers to unveiling emerging trends, VOW is where timeless romance meets contemporary style. A source of inspiration for modern brides seeking to craft their dream wedding.</p>
+            <p className={styles.p}>The magazine covers are designed with brides in mind, aiming to inspire and excite readers as they plan their big day. The elegant typography complements the romantic theme, exuding sophistication and timeless charm, while the darkened edges allow the beautiful white gowns to stand out. </p>
           </div>
           <img src="Wedding mag 1.png"
           className={styles.tabletImage}
@@ -25,7 +25,7 @@ export default function Vow() {
         <div className={styles.inspo}>
           <h2 className={styles.heading}>Magazine Covers</h2>
           <div className={styles.inspoImgs}>
-          <img src="Wedding mag 2.png"
+          <img src="Wedding mag 2.1.png"
             className={styles.inspoImg}
           />
             <img src="Wedding mag 3.png"
