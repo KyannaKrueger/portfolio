@@ -15,9 +15,9 @@ export default function Dior() {
           <div className={styles.writing}>
             <h1 className={styles.heading}>Dior Through the Decades</h1>
             <p  className={styles.subHeading}>ADVERTISEMENT | GRAPHIC DESIGN | SEPTEMBER 2024</p>
-            <p className={styles.p}>"Dior Through the Decades" is an advertisement for a fictional museum, promoting an exhibit that celebrates the rich history of the Dior brand. The showcase highlights the fashion house’s groundbreaking designs, tracing its journey from 1460 to its lasting impact on haute couture.</p>
+            <p className={styles.p}>"Dior Through the Decades" is an advertisement for a museum, promoting an exhibit that celebrates the rich history of the Dior brand. The showcase highlights the fashion house’s groundbreaking designs, tracing its journey from 1946 to its lasting impact on haute couture.</p>
             <p className={styles.p}>The advertisement was designed for two display formats: posters and digital tablets. While each is optimized for its respective dimensions, both feature Dior's iconic 1949 Junon dress, ensuring a visually striking representation of the brand's timeless elegance.</p>
-            <p className={styles.p}>Additional design elements, such as typography and color palette, were carefully chosen to evoke a sense of sophistication, aligning with Dior's reputation for luxury and innovation.</p>
+            <p className={styles.p}>Additional design elements, such as the sophisticated typography and dark color palette, were carefully chosen to evoke a sense of sophistication, aligning with Dior's reputation for luxury and innovation, and to help the main focus (the dress) stand out.</p>
           </div>
           <img src="Dior tablet.png"
           alt="A Dior exhibition poster on a tablet"

@@ -51,6 +51,22 @@
     display: block;   
 }
 
+.dielines{
+    display: flex;
+    flex-direction: column;
+}
+
+.canDies{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.dieline{
+    width: 45%;
+    padding: 1em;
+}
+
 .inspoImgs {
     display: flex;
     flex-direction: row;
@@ -123,6 +139,25 @@
         height: 40%;
         margin: 0 auto;   
         display: block;   
+    }
+
+    .dielines{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1em;
+    }
+    
+    .canDies{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: center;
+    }
+    
+    .dieline{
+        width: 45%;
+        padding: 1em;
     }
     
     .inspoImgs {

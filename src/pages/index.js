@@ -35,8 +35,8 @@ export default function Home() {
                 />
               </Link>
               <Link href="/sparq">
-                <img src="sparqMockup2.png"
-                alt="Cans of an alchoholic beverage in an ice bucket"
+                <img src="sparqMockup2.1.png"
+                alt="Cans of an alchoholic beverage on an orange background"
                 className={styles.project}
                 />
               </Link>
