@@ -34,16 +34,26 @@
 }
 
 .btn:hover {
-    background-color: #000000;
+    background-color: #18162b;
 }
 
-.btnDisabled {
+.btnActive {
     border: none;
-    color: white 50%;
-    background-color: #2b293a;
+    background-color: #2b1621;
+    color: white;
     border-radius: 50px;
     margin-right: 1.5em;
     width: 150px;
+    height: 50px;
+  }
+
+  .btnDisabled {
+    border: none;
+    color: white;
+    background-color:#533047;
+    border-radius: 50px;
+    margin-right: 1.5em;
+    width: 120px;
     height: 50px;
 }
 
@@ -60,7 +70,7 @@
 
 .gallery {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2em;
 }
 
@@ -93,6 +103,7 @@
     .gallery {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     
     .project {
@@ -114,7 +125,7 @@
     .btnDisabled {
         border: none;
         color: white 50%;
-        background-color: #2b293a;
+        background-color: transparent;
         border-radius: 50px;
         margin-right: 1.5em;
         width: 120px;

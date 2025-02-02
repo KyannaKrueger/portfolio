@@ -2,7 +2,7 @@ import Nav from "../components/molecules/Nav";
 import Back from "../components/atoms/Back";
 import styles from '../styles/Sparq.module.css';
 
-export default function Dior() {
+export default function Sparq() {
   return (
     <div>
       <Nav />

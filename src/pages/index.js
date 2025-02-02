@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Link from "next/link"; 
 import Nav from '../components/molecules/Nav';
 import styles from '../styles/Index.module.css';
@@ -6,6 +7,12 @@ import { Karla } from 'next/font/google';
 import { Nunito } from 'next/font/google';
 
 export default function Home() {
+  const [activeCategory, setActiveCategory] = useState("graphicDesign");
+
+  const handleCategoryChange = (category) => {
+    setActiveCategory(category);
+  };
+
   return (
     <div>
       <Nav />
@@ -17,38 +24,60 @@ export default function Home() {
           <a href="https://www.behance.net/kyannakrueger" className={styles.link}>Behance</a>
           <h2 className={styles.projects}>Projects</h2>
           <div className={styles.filter}>
-              <button className={styles.btn}>
-                Graphic Design
-              </button>
-              <button className={styles.btnDisabled}>
-                UI/UX
-              </button>
-              <button className={styles.btnDisabled}>
-                Motion Graphics
-              </button>
-            </div>
-            <div className={styles.gallery}>
-              <Link href="/dior">
-                <img src="Dior 1920x1080.png"
-                alt="A Dior exhibition poster at a bus stop"
-                className={styles.project}
+            <button 
+              className={activeCategory === "graphicDesign" ? styles.btnActive : styles.btnDisabled}
+              onClick={() => handleCategoryChange("graphicDesign")}
+            >
+              Graphic Design
+            </button>
+            <button 
+              className={activeCategory === "uiux" ? styles.btnActive : styles.btnDisabled}
+              onClick={() => handleCategoryChange("uiux")}
+            >
+              UI/UX
+            </button>
+            <button 
+              className={activeCategory === "motionGraphics" ? styles.btnActive : styles.btnDisabled}
+              onClick={() => handleCategoryChange("motionGraphics")}
+            >
+              Motion Graphics
+            </button>
+          </div>
+          <div className={styles.gallery}>
+            {activeCategory === "graphicDesign" && (
+              <>
+                <Link href="/dior">
+                  <img src="Dior 1920x1080.png"
+                    alt="A Dior exhibition poster at a bus stop"
+                    className={styles.project}
+                  />
+                </Link>
+                <Link href="/sparq">
+                  <img src="sparqMockup2.1.png"
+                    alt="Cans of an alcoholic beverage on an orange background"
+                    className={styles.project}
+                  />
+                </Link>
+                <Link href="/vow">
+                  <img src="VOW.png"
+                    alt="Magazine collection"
+                    className={styles.project}
+                  />
+                </Link>
+              </>
+            )}
+
+            {activeCategory === "motionGraphics" && (
+              <Link href="/theater">
+                <img src="motion4.png"
+                  alt="Graphic of a theatre"
+                  className={styles.project}
                 />
               </Link>
-              <Link href="/sparq">
-                <img src="sparqMockup2.1.png"
-                alt="Cans of an alchoholic beverage on an orange background"
-                className={styles.project}
-                />
-              </Link>
-              <Link href="/vow">
-                <img src="VOW.png"
-                alt="Magazine collection"
-                className={styles.project}
-                />
-              </Link>
-            </div>
+            )}
+          </div>
         </div>
       </div>
-      </div>
+    </div>
   );
 }
