@@ -1,0 +1,197 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #04030F;
+    color: white;
+    margin: 0 auto; 
+    padding-left: 5em;
+    padding-right: 5em;  
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+
+.video {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: none;
+}
+
+.video-wrapper:hover .play-button {
+    display: block;
+}
+
+
+.tabletImage {
+    width: 40%;
+    height: 40%;      
+    margin: 0 auto;   
+    display: block;   
+}
+
+.heading{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0em;
+}
+
+.subHeading{
+    font-family: "Karla", sans-serif;
+    padding-bottom: 1em;
+}
+
+.p {
+    text-align: left;
+    padding-left: 0em;
+    width: 80%;
+    padding-bottom: 1em;
+    font-family: "Karla", sans-serif;
+}
+
+.p2 {
+    text-align: left;
+    padding-left: 0em;
+    width: 45%;
+    padding-bottom: 1em;
+    font-family: "Karla", sans-serif;
+}
+
+.can {
+    width: 30%;      
+    height: 30%;
+    margin: 0 auto;   
+    display: block;   
+}
+
+.inspo {
+    display: flex;
+    flex-direction: column;
+}
+
+.inspoImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inspoImg {
+    width: 100%;
+    height: auto;
+}
+
+.inspoImage {
+    width: 45%;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: #04030F;
+        color: white;
+        margin: 0 auto;
+        max-width: 800px; 
+        padding: 1em;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2em;
+    }
+    
+    .video {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .tabletImage {
+        width: 50%;      
+        margin: 0 auto;   
+        display: block;   
+    }
+    
+    .heading{
+        font-family: "Playfair Display", serif;
+        margin-bottom: 0em;
+        text-align: center;
+    }
+    
+    .subHeading{
+        font-family: "Karla", sans-serif;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+    
+    .p {
+        text-align: center;
+        padding-bottom: 1em;
+        font-family: "Karla", sans-serif;
+        width: 100%;
+    }
+
+    .p2 {
+        text-align: center;
+        padding-bottom: 1em;
+        font-family: "Karla", sans-serif;
+        width: 100%;
+    }
+    
+    .tabletImage {
+        width: 0%;      
+        height: 0%;
+        margin: 0 auto;   
+        display: none;   
+    }
+    
+    .inspoImgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 2em;
+    }
+    
+    .inspoImg {
+        width: 300px;
+        align-self: center;
+        padding-top: 1em;
+        height: auto;
+    }
+    
+    .back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+}
