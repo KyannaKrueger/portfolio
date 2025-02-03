@@ -7,7 +7,7 @@ export default function Sparq() {
     <div>
       <Nav />
       <div className={styles.main}>
-        <img src="sparqMockup2.1.png"
+        <img src="sparqMockup2.2.png"
                 alt="Cans of an alchoholic on an orange background"
                 className={styles.image}
         />
