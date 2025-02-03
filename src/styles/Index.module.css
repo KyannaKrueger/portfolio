@@ -74,15 +74,58 @@
     gap: 2em;
 }
 
-.project {
-    width: 450px;
-    height: auto; 
-    object-fit: cover;
-}
 
 .project:hover {
     transform: scale(1.05);
 }
+
+.projectCard {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .project {
+    width: 450px;
+    height: auto; 
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .projectCard:hover .project {
+    transform: scale(1.05);
+    border-radius: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family:  "Karla", sans-serif;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .projectCard:hover .overlay {
+    opacity: 1;
+    border-radius: 20px;
+  }
+  
+  .projectName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
 
 @media (max-width: 768px) {
     .main{
@@ -110,6 +153,7 @@
         width: 500px;
         height: auto; 
         object-fit: cover;
+        border-radius: 20px;
     }
 
     .btn{

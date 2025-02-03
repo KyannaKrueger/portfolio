@@ -44,38 +44,39 @@ export default function Home() {
             </button>
           </div>
           <div className={styles.gallery}>
-            {activeCategory === "graphicDesign" && (
-              <>
-                <Link href="/dior">
-                  <img src="Dior 1920x1080.png"
-                    alt="A Dior exhibition poster at a bus stop"
-                    className={styles.project}
-                  />
-                </Link>
-                <Link href="/sparq">
-                  <img src="sparqMockup2.1.png"
-                    alt="Cans of an alcoholic beverage on an orange background"
-                    className={styles.project}
-                  />
-                </Link>
-                <Link href="/vow">
-                  <img src="VOW.png"
-                    alt="Magazine collection"
-                    className={styles.project}
-                  />
-                </Link>
-              </>
-            )}
+  {activeCategory === "graphicDesign" && (
+    <>
+      <Link href="/dior" className={styles.projectCard}>
+        <img src="Dior 1920x1080.png" alt="A Dior exhibition poster at a bus stop" className={styles.project} />
+        <div className={styles.overlay}>
+          <span className={styles.projectName}>Dior Through the Decades</span>
+        </div>
+      </Link>
+      <Link href="/sparq" className={styles.projectCard}>
+        <img src="sparqMockup2.2.png" alt="Cans of an alcoholic beverage on an orange background" className={styles.project} />
+        <div className={styles.overlay}>
+          <span className={styles.projectName}>Sparq&Sip</span>
+        </div>
+      </Link>
+      <Link href="/vow" className={styles.projectCard}>
+        <img src="VOW.png" alt="Magazine collection" className={styles.project} />
+        <div className={styles.overlay}>
+          <span className={styles.projectName}>VOW Magazine</span>
+        </div>
+      </Link>
+    </>
+  )}
 
-            {activeCategory === "motionGraphics" && (
-              <Link href="/theater">
-                <img src="motion4.png"
-                  alt="Graphic of a theatre"
-                  className={styles.project}
-                />
-              </Link>
-            )}
-          </div>
+  {activeCategory === "motionGraphics" && (
+    <Link href="/theater" className={styles.projectCard}>
+      <img src="motion4.png" alt="Graphic of a theatre" className={styles.project} />
+      <div className={styles.overlay}>
+        <span className={styles.projectName}>Theater Etiquette</span>
+      </div>
+    </Link>
+  )}
+</div>
+
         </div>
       </div>
     </div>
