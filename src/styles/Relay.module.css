@@ -1,0 +1,119 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #04030F;
+    color: white;
+    margin: 0 auto; 
+    padding-left: 5em;
+    padding-right: 5em;  
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+
+.introImg{
+    width:70%;
+    height: auto;
+    margin-top: -6em;
+}
+
+.introLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0em;
+}
+
+.subHeading{
+    font-family: "Karla", sans-serif;
+}
+
+.h2{
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0em;
+    padding-top: 1em;
+}
+
+.introP {
+    text-align: left;
+    padding-left: 0em;
+    width: 80%;
+    font-family: "Karla", sans-serif;
+}
+
+.blogbtn{
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.toc{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1em;
+    margin-top: -2em;
+    margin-bottom: -2em;;
+}
+
+.num{
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+}
+
+.tocP{
+    font-family: "Karla", sans-serif;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: #04030F;
+        color: white;
+        margin: 0 auto;
+        max-width: 800px; 
+        padding: 1em;
+    }
+
+    .heading{
+        font-family: "Playfair Display", serif;
+        margin-bottom: 0em;
+        text-align: center;
+    }
+    
+    .subHeading{
+        font-family: "Karla", sans-serif;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+    .introP {
+        text-align: center;
+        padding-bottom: 1em;
+        font-family: "Karla", sans-serif;
+        width: 100%;
+    }
+
+    .back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+}
