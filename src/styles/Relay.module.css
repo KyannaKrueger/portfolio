@@ -26,7 +26,7 @@
 }
 
 .heading{
-    font-family: "Playfair Display", serif;
+    font-family: "Karla", sans-serif;
     margin-bottom: 0em;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .h2{
-    font-family: "Playfair Display", serif;
+    font-family: "Karla", sans-serif;
     margin-bottom: 0em;
     padding-top: 1em;
 }
@@ -91,7 +91,12 @@
 }
 
 .marketImg{
-    width: 50%
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.marketImg:hover {
+    transform: scale(1.05);
 }
 
 .marketingP{
@@ -123,6 +128,11 @@
 
 .personaImg{
     width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.personaImg:hover {
+    transform: scale(1.05);
 }
 
 .personasP{
@@ -139,12 +149,134 @@
     margin-top: 1em;
 }
 
+.trust{
+    display: flex;
+    flex-direction: row;
+}
+
+.reasons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+.trustMockup {
+    width: 35%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.trustMockup:hover {
+    transform: scale(1.05);
+}
+
+.reasonRow{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -3em;
+    margin-top: -2em;
+}
+
+.reason {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.reasonNum{
+    font-family: "Playfair Display", serif;
+    font-size:50px;
+}
+
+.reasonReal {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    width: 200px;
+    margin-right: 1.5em;
+}
+
+.wireframes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;             
+}
+
+.branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandImg {
+    width: 70%;
+    height: auto;
+    padding-top: 2em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.brandImg:hover {
+    transform: scale(1.05);
+}
+
+.brandP {
+    font-family: "Karla", sans-serif;
+    font-size: large;
+}
+
+.promoVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: none;
+}
+
+.video-wrapper:hover .play-button {
+    display: block;
+}
+
+
 .back {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2em;
     margin-bottom: 3em;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -159,7 +291,7 @@
     }
 
     .heading{
-        font-family: "Playfair Display", serif;
+        font-family: "Karla", sans-serif;
         margin-bottom: 0em;
         text-align: center;
     }

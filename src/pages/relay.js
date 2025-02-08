@@ -1,6 +1,7 @@
 import Nav from "../components/molecules/Nav";
 import Back from "../components/atoms/Back";
 import styles from '../styles/Relay.module.css';
+import Carousel from "@/components/molecules/Carousel";
 
 export default function Relay() {
   return (
@@ -14,7 +15,8 @@ export default function Relay() {
                 <p  className={styles.introP}>Relay is Canada’s first ridesharing app for parents, designed to make it 
                 easy to arrange safe, reliable transportation for your children. Whether you’re a busy parent juggling 
                 a hectic schedule or a new immigrant seeking to expand your network, Relay connects you with trusted 
-                families in your community—no random drivers.</p>
+                families in your community—no random drivers. With safety features such as GPS Tracking, Ride specific 
+                pins and Ai powered notifications, Relay is the app that parents trust.</p>
                 <button className={styles.blogbtn}>
                     Visit Blog
                 </button>
@@ -30,22 +32,18 @@ export default function Relay() {
                 </div>
                 <div className={styles.toc}>
                     <p className={styles.num}>03</p>
-                    <p className={styles.tocP}>What Relay Does</p>
-                </div>
-                <div className={styles.toc}>
-                    <p className={styles.num}>04</p>
                     <p className={styles.tocP}>Why Parents Trust Relay</p>
                 </div>
                 <div className={styles.toc}>
-                    <p className={styles.num}>05</p>
+                    <p className={styles.num}>04</p>
                     <p className={styles.tocP}>Wire Frames</p>
                 </div>
                 <div className={styles.toc}>
-                    <p className={styles.num}>06</p>
+                    <p className={styles.num}>05</p>
                     <p className={styles.tocP}>Branding</p>
                 </div>
                 <div className={styles.toc}>
-                    <p className={styles.num}>07</p>
+                    <p className={styles.num}>06</p>
                     <p className={styles.tocP}>Promotional Video</p>
                 </div>
             </div>
@@ -109,6 +107,72 @@ export default function Relay() {
                 She seeks a user-friendly app that streamlines scheduling, facilitates in-app communication, and builds trust through reviews and ratings.
               </p>
             </div>
+          </div>
+        </div>
+        <div className={styles.trust}>
+          <div className={styles.reasons}>
+            <h2 className={styles.h2}>Why Parents trust Relay</h2>
+            <div className={styles.reasonRow}>
+              <div className={styles.reason}>
+                <p className={styles.reasonNum}>01</p>
+                <p className={styles.reasonReal}>Trusted Connections</p>
+              </div>
+              <div className={styles.reason}>
+                <p className={styles.reasonNum}>02</p>
+                <p className={styles.reasonReal}>Real-Time GPS Tracking</p>
+              </div>
+            </div>
+            <div className={styles.reasonRow}>
+              <div className={styles.reason}>
+                <p className={styles.reasonNum}>03</p>
+                <p className={styles.reasonReal}>AI Ride Notifications</p>
+              </div>
+              <div className={styles.reason}>
+                <p className={styles.reasonNum}>04</p>
+                <p className={styles.reasonReal}>Unique Ride PINs</p>
+              </div>
+            </div>
+            <div className={styles.reasonRow}>
+              <div className={styles.reason}>
+                <p className={styles.reasonNum}>05</p>
+                <p className={styles.reasonReal}>Reliable Scheduling</p>
+              </div>
+              <div className={styles.reason}>
+                <p className={styles.reasonNum}>06</p>
+                <p className={styles.reasonReal}>Build Trust</p>
+              </div>
+            </div>
+          </div>            
+          <img src="relay3.1.png" className={styles.trustMockup}/>
+        </div>
+        <div className={styles.wireframes}>
+          <h2 className={styles.h2}>Wireframes</h2>
+          <p className={styles.marketingP}>
+            Use the arrows to view the final wireframes for our key pages and features.
+            While multiple versions were tested, these screens represent the final designs after user feedback.
+          </p>
+          <div className={styles.carousel}>
+            <Carousel />
+          </div>
+        </div>
+        <div className={styles.branding}>
+          <h2 className={styles.h2}>Branding</h2>
+          <img src="relay6.png"
+          className={styles.brandImg}
+          />
+          <h2 className={styles.h2}>Our Logo</h2>
+          <img src="relay7.2.png"
+          className={styles.logo}
+          />
+          <p className={styles.brandP}> R + Eco-friendly + Radar + Side Mirror + Connection</p>
+        </div>
+        <div className={styles.promoVideo}>
+          <h2 className={styles.h2}>Promotional Video</h2>
+        <div className="video-wrapper">
+            <video src="/" 
+            className={styles.video} 
+            controls 
+            poster=""/>
           </div>
         </div>
       <div className={styles.back}>
