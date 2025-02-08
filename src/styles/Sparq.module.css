@@ -27,8 +27,12 @@
 }
 
 .heading{
-    font-family: "Playfair Display", serif;
+    font-family: "Karla", sans-serif;
     margin-bottom: 0em;
+}
+
+.h2 {
+    font-family: "Karla", sans-serif;
 }
 
 .subHeading{
@@ -116,7 +120,7 @@
     }
     
     .heading{
-        font-family: "Playfair Display", serif;
+        font-family: "Karla", sans-serif;
         margin-bottom: 0em;
         text-align: center;
     }
