@@ -44,6 +44,10 @@
     font-family: "Karla", sans-serif;
 }
 
+.h2 {
+    font-family: "Karla", sans-serif;
+}
+
 .can {
     width: 30%;      
     height: 30%;
@@ -54,17 +58,19 @@
 .dielines{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .canDies{
     display: flex;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
 .dieline{
     width: 45%;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .inspoImgs {

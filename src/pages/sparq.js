@@ -25,7 +25,7 @@ export default function Sparq() {
           />
         </div>
         <div className={styles.dielines}>
-          <h2>Dielines</h2>
+          <h2 className={styles.h2}>Dielines</h2>
           <div className={styles.canDies}>
             <img src="can1.png"
             alt="An alcholic can sitting on a patio table"
