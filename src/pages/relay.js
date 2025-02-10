@@ -1,7 +1,7 @@
 import Nav from "../components/molecules/Nav";
 import Back from "../components/atoms/Back";
 import styles from '../styles/Relay.module.css';
-import Carousel from "@/components/molecules/Carousel";
+import Carousel from "../components/molecules/Carousel";
 
 export default function Relay() {
   return (
@@ -51,13 +51,13 @@ export default function Relay() {
             className={styles.introImg}
             />
         </div>
-
         <div className={styles.market}>
           <h2 className={styles.h2}>The Market Gap</h2>
           <div className={styles.marketGroup}>
             <img src="relay5.png"
               className={styles.marketImg}
             />
+
             <p className={styles.marketingP}>Many working parents face daily challenges coordinating their children’s transportation, 
                 often relying on last-minute arrangements with friends or family. Despite the demand for a reliable solution, 
                 no app in Canada offers a streamlined, secure way to organize carpools within a trusted community.
@@ -75,7 +75,6 @@ export default function Relay() {
             </p>
           </div>
         </div>
-
         <div className={styles.personas}>
         <h2 className={styles.h2}>User Persona's</h2>
         <div className={styles.personasGroup}>
@@ -168,11 +167,39 @@ export default function Relay() {
         </div>
         <div className={styles.promoVideo}>
           <h2 className={styles.h2}>Promotional Video</h2>
+
+          <p className={styles.promoP}>
+            This promotional video uses visual storytelling to highlight real pain points discovered in our research,
+            while providing Relay as a solution. The promotional video was storyboarded in one week, shot in two days,
+            and edited in a few weeks.
+          </p>
         <div className="video-wrapper">
-            <video src="/" 
-            className={styles.video} 
-            controls 
-            poster=""/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iqs0Pss_1fc?si=EPphv7Y1iCxDHmS_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+        <div className={styles.reflection}>
+          <h2 className={styles.h2}>Project Reflection</h2>
+          <div className={styles.reflectionCont}>
+            <div className={styles.reflectionWords}>
+              <p className={styles.reflectionP}>
+                Relay is honored to have won the D3/FSWD 2024 Annual Student Design & Technology Showcase, but what we’re
+                most proud of is the journey it took to get there. This project was our first collaboration with students
+                from another program, and navigating its ambitious scope was both challenging and rewarding. Through countless
+                hours of brainstorming, refining ideas, and solving complex problems, we designed and developed an app that meets
+                a real need for parents—all within just 15 weeks. We’re excited about the possibilities of taking this project even further.
+              </p>
+              <h3 className={styles.h3}>Full Team</h3>
+              <p className={styles.credits}>
+                <span className={styles.bold}>Digital Design and Development</span>
+                <br/>
+                Gloria Chan, Vanessa Huang, Kyanna Krueger, Evan Schatz, Zeno Wong</p>
+              <p className={styles.credits}>
+              <span className={styles.bold}>Full Stack Web Development</span>
+              <br/> Armaan Brar, Byron Dray, Evann Li</p>
+            </div>
+          <img src="relay9.jpg"
+              className={styles.reflectImg}
+            />
           </div>
         </div>
       <div className={styles.back}>
@@ -182,3 +209,4 @@ export default function Relay() {
     </div>
   );
 }
+
