@@ -75,6 +75,16 @@ export default function Home() {
       </div>
     </Link>
   )}
+
+  
+{activeCategory === "uiux" && (
+    <Link href="/relay" className={styles.projectCard}>
+      <img src="relay8.png" className={styles.project} />
+      <div className={styles.overlay}>
+        <span className={styles.projectName}>Relay Rideshare</span>
+      </div>
+    </Link>
+  )}
 </div>
 
         </div>

@@ -10,14 +10,17 @@
 
 .head {
     color: white;
-    font-family: "Playfair Display", serif;
+    font-family: "Karla", sans-serif;
 }
 
 .intro{
     margin-bottom: 3em;
 }
 
-.link{color: rgb(226, 81, 112);}
+.link{
+    color: rgb(226, 81, 112);
+    font-family: "Karla", sans-serif;
+}
 
 .filter{
     margin-bottom: 2em;
@@ -91,6 +94,10 @@
     height: auto; 
     transition: transform 0.3s ease-in-out;
     border-radius: 20px;
+  }
+
+  .projects {
+    font-family: "Karla", sans-serif;
   }
   
   .projectCard:hover .project {

@@ -1,0 +1,61 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 70%;
+  }
+  
+  .carouselTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .carouselButton {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+  
+  .prev {
+    left: 10px;
+    color: white;
+  }
+  
+  .next {
+    right: 10px;
+    color: white;
+  }
+  
+  .carouselImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .carouselDots {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: white;
+  }
+  
