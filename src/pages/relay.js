@@ -12,64 +12,54 @@ export default function Relay() {
             <div className={styles.introLeft}>
                 <h1  className={styles.heading}>Relay</h1>
                 <p className={styles.subHeading}>APP | RESEARCHER & UI/UX DESIGNER | SEPTEMBER 2024 - DECEMBER 2024</p>
-                <p  className={styles.introP}>Relay is Canada’s first ridesharing app for parents, designed to make it
-                easy to arrange safe, reliable transportation for your children. Whether you’re a busy parent juggling
-                a hectic schedule or a new immigrant seeking to expand your network, Relay connects you with trusted
-                families in your community—no random drivers. With safety features such as GPS Tracking, Ride specific
+                <p  className={styles.introP}>Relay is Canada’s first ridesharing app for parents, designed to make it 
+                easy to arrange safe, reliable transportation for your children. Whether you’re a busy parent juggling 
+                a hectic schedule or a new immigrant seeking to expand your network, Relay connects you with trusted 
+                families in your community—no random drivers. With safety features such as GPS Tracking, Ride specific 
                 pins and Ai powered notifications, Relay is the app that parents trust.</p>
-                <a href="https://relay.arspera.com/" className={styles.blogbtn}>
+                <button className={styles.blogbtn}>
                     Visit Blog
-                </a>
+                </button>
                 <h2 className={styles.h2}>Table of Contents</h2>
-                <div className={styles.tocRows}>
-                  <div className={styles.tocColumn}>
-                    <div className={styles.toc}>
-                      <p className={styles.num}>01</p>
-                      <p className={styles.tocP}>The Market Gap</p>
-                    </div>
-                    <div className={styles.toc}>
-                      <p className={styles.num}>02</p>
-                      <p className={styles.tocP}>User Persona’s</p>
-                    </div>
-                    <div className={styles.toc}>
-                      <p className={styles.num}>03</p>
-                      <p className={styles.tocP}>Why Parents Trust Relay</p>
-                    </div>
-                    <div className={styles.toc}>
-                      <p className={styles.num}>04</p>
-                      <p className={styles.tocP}>Wire Frames</p>
-                    </div>
-                  </div>
-                  <div className={styles.tocColumn}>
-                    <div className={styles.toc}>
+                <p className={styles.introP}> Click on a number to jump to that section!</p>
+                <div className={styles.toc}>
+                    <p className={styles.num}>01</p>
+                    <p className={styles.tocP}>The Market Gap</p>
+                </div>
+                <div className={styles.toc}>
+                    <p className={styles.num}>02</p>
+                    <p className={styles.tocP}>User Persona’s</p>
+                </div>
+                <div className={styles.toc}>
+                    <p className={styles.num}>03</p>
+                    <p className={styles.tocP}>Why Parents Trust Relay</p>
+                </div>
+                <div className={styles.toc}>
+                    <p className={styles.num}>04</p>
+                    <p className={styles.tocP}>Wire Frames</p>
+                </div>
+                <div className={styles.toc}>
                     <p className={styles.num}>05</p>
                     <p className={styles.tocP}>Branding</p>
-                  </div>
-                  <div className={styles.toc}>
-                      <p className={styles.num}>06</p>
-                      <p className={styles.tocP}>Promotional Video</p>
-                  </div>
-                  <div className={styles.toc}>
-                        <p className={styles.num}>07</p>
-                        <p className={styles.tocP}>Project Reflection</p>
-                  </div>
                 </div>
+                <div className={styles.toc}>
+                    <p className={styles.num}>06</p>
+                    <p className={styles.tocP}>Promotional Video</p>
                 </div>
             </div>
-            <img src="relay1.2.png"
+            <img src="relay1.png"
             className={styles.introImg}
             />
         </div>
-
-
         <div className={styles.market}>
           <h2 className={styles.h2}>The Market Gap</h2>
           <div className={styles.marketGroup}>
             <img src="relay5.png"
               className={styles.marketImg}
             />
-            <p className={styles.marketingP}>Many working parents face daily challenges coordinating their children’s transportation,
-                often relying on last-minute arrangements with friends or family. Despite the demand for a reliable solution,
+
+            <p className={styles.marketingP}>Many working parents face daily challenges coordinating their children’s transportation, 
+                often relying on last-minute arrangements with friends or family. Despite the demand for a reliable solution, 
                 no app in Canada offers a streamlined, secure way to organize carpools within a trusted community.
             </p>
           </div>
@@ -78,15 +68,13 @@ export default function Relay() {
               className={styles.marketImg}
             />
             <p className={styles.marketingP}>
-            Our primary research revealed that 75% of working parents struggle with balancing work and their kids' transportation.
+            Our primary research revealed that 75% of working parents struggle with balancing work and their kids' transportation. 
             When unable to pick them up on time, they often rely on last-minute solutions like waiting, skipping activities,
             or taking transit alone—findings that align with Statistics Canada’s study.<br/>
             You can read our full research report  <a href="https://drive.google.com/file/d/1AFnJPVDrIHCMcRFgdjcG65a-SkyHVtI9/view" className={styles.hyperlink}>here</a>
             </p>
           </div>
         </div>
-
-
         <div className={styles.personas}>
         <h2 className={styles.h2}>User Persona's</h2>
         <div className={styles.personasGroup}>
@@ -111,7 +99,7 @@ export default function Relay() {
             <div className={styles.personasTextGroupR}>
               <p className={styles.bigP}>Sarah Matthews: Part-Time Climate Policy Advisor</p>
               <p className={styles.personasP}>
-                Sarah, a part-time climate policy advisor and mother of two, enjoys fostering community connections and helping others with transportation.
+                Sarah, a part-time climate policy advisor and mother of two, enjoys fostering community connections and helping others with transportation. 
                 She regularly volunteers to drive her kids and their friends but struggles to connect with busy parents in need.
               </p>
               <p className={styles.personasP}>
@@ -163,7 +151,7 @@ export default function Relay() {
             While multiple versions were tested, these screens represent the final designs after user feedback.
           </p>
           <div className={styles.carousel}>
-            <Carousel/>
+            <Carousel />
           </div>
         </div>
         <div className={styles.branding}>
@@ -179,6 +167,7 @@ export default function Relay() {
         </div>
         <div className={styles.promoVideo}>
           <h2 className={styles.h2}>Promotional Video</h2>
+
           <p className={styles.promoP}>
             This promotional video uses visual storytelling to highlight real pain points discovered in our research,
             while providing Relay as a solution. The promotional video was storyboarded in one week, shot in two days,
@@ -220,3 +209,4 @@ export default function Relay() {
     </div>
   );
 }
+
