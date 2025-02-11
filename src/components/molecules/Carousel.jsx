@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../../styles/Carousel.module.css";
 
-function Carousel() {
+export default function Carousel() {
   const images = ["highlights.png", "Onboard.png", "Trips.png", "Community.png"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -36,7 +36,3 @@ function Carousel() {
     </div>
   );
 }
-
-export default Carousel;
-
-
