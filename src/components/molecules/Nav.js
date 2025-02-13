@@ -13,7 +13,7 @@ export default function Nav() {
     <nav className={styles.nav}>
       <Link href="/">
         <img 
-          src="Asset 1.png" 
+          src="blackLogo1.1.png" 
           alt="Logo" 
           className={styles.navLogo}
         />

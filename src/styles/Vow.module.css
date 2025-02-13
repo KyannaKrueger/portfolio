@@ -1,8 +1,8 @@
 .main {
     display: flex;
     flex-direction: column;
-    background-color: #04030F;
-    color: white;
+    background-color: #F9F4ED;
+    color: #04030F;
     margin: 0 auto; 
     padding-left: 5em;
     padding-right: 5em;  
@@ -74,8 +74,6 @@
     .main {
         display: flex;
         flex-direction: column;
-        background-color: #04030F;
-        color: white;
         margin: 0 auto;
         max-width: 800px; 
         padding: 1em;
