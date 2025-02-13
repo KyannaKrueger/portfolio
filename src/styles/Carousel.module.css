@@ -27,12 +27,12 @@
   
   .prev {
     left: 10px;
-    color: white;
+    color: #04030F;
   }
   
   .next {
     right: 10px;
-    color: white;
+    color: #04030F;
   }
   
   .carouselImage {
@@ -56,6 +56,6 @@
   }
   
   .active {
-    background-color: white;
+    background-color: #04030F;
   }
   

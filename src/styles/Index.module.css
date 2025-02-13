@@ -1,21 +1,27 @@
 .main {
     display: flex;
     flex-direction: column;
-    background-color: #04030F;
-    color: white;
-    margin: 0 auto; 
+    background-color: #F9F4ED;
+    color: #04030F;
+    margin: 0 auto;
     padding-left: 5em;
-    padding-right: 5em;  
-}
-
-.head {
-    color: white;
-    font-family: "Karla", sans-serif;
-}
-
-.intro{
-    margin-bottom: 3em;
-}
+    padding-right: 5em;
+  }
+  
+  .head {
+    color: #04030F;
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+  }
+  
+  .secOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5em; 
+  }
+  
 
 .link{
     color: rgb(226, 81, 112);
@@ -27,10 +33,9 @@
 }
 
 .btn{
-    border: 1px solid white;
+    border: 1px solid;
     color: white;
     background-color: #0d0c16;
-    border-radius: 50px;
     width: 150px;
     height: 50px;
     margin-right: 1.5em;
@@ -44,7 +49,6 @@
     border: none;
     background-color: #2b1621;
     color: white;
-    border-radius: 50px;
     margin-right: 1.5em;
     width: 150px;
     height: 50px;
@@ -54,14 +58,13 @@
     border: none;
     color: white;
     background-color:#533047;
-    border-radius: 50px;
     margin-right: 1.5em;
     width: 120px;
     height: 50px;
 }
 
 .p {
-    color: white;
+    color: #04030F;
     font-family: "Karla", sans-serif;
 }
 
@@ -86,23 +89,20 @@
     position: relative;
     display: inline-block;
     overflow: hidden;
-    border-radius: 20px;
   }
   
   .project {
     width: 450px;
     height: auto; 
     transition: transform 0.3s ease-in-out;
-    border-radius: 20px;
   }
 
   .projects {
-    font-family: "Karla", sans-serif;
+    font-family: "Playfair Display", serif;
   }
   
   .projectCard:hover .project {
     transform: scale(1.05);
-    border-radius: 20px;
   }
   
   .overlay {
@@ -119,12 +119,10 @@
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 20px;
   }
   
   .projectCard:hover .overlay {
     opacity: 1;
-    border-radius: 20px;
   }
   
   .projectName {
@@ -138,8 +136,6 @@
     .main{
         display: flex;
         flex-direction: column;
-        background-color: #04030F;
-        color: white;
         margin: 0 auto; 
         padding-left: 2em;
         padding-right: 2em;  
@@ -160,14 +156,12 @@
         width: 500px;
         height: auto; 
         object-fit: cover;
-        border-radius: 20px;
     }
 
     .btn{
         border: 1px solid white;
         color: white;
         background-color: #0d0c16;
-        border-radius: 50px;
         width: 120px;
         height: 50px;
         margin-right: 1.5em;
@@ -177,7 +171,6 @@
         border: none;
         color: white 50%;
         background-color: transparent;
-        border-radius: 50px;
         margin-right: 1.5em;
         width: 120px;
         height: 50px;
