@@ -9,7 +9,9 @@
 }
 
 .head {
-    font-family: "Karla", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    max-width: 40%;
 }
 
 .p {
