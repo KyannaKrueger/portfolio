@@ -18,13 +18,14 @@ export default function Home() {
     <div>
       <Nav />
       <Scroll />
+      <video className={styles.bgVideo} src="landingVid1.mp4" autoPlay loop muted playsInline />
       <div className={styles.main}>
-          <div className={styles.secOne}>
+          {/* <div className={styles.secOne}>
             <h1 className={styles.head}>Kyanna Krueger</h1>
             <p className={styles.p}>This site is currently under construction. I am adding projects as you read!<br/>
             Come back soon and check out my behance portfolio for now!</p>
             <a href="https://www.behance.net/kyannakrueger" className={styles.link}>Behance</a>
-          </div>
+          </div> */}
           <h2 className={styles.projects}>Projects</h2>
           <div className={styles.filter}>
             <button 

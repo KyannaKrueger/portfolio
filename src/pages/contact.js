@@ -6,7 +6,7 @@ export default function Contact() {
       <div>
         <Nav />
         <div className={styles.main}>
-            <h1 className={styles.head}>Let's get in touch!</h1>
+            <p className={styles.head}>Let’s create something amazing together! Drop me a message :) </p>
             <p className={styles.p}>kyannakrueger@gmail.com</p>
             <a href="www.linkedin.com/in/kyannakrueger">LinkedIn</a>
             {/* <div className={styles.formSection}>

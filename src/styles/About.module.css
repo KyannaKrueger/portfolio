@@ -10,7 +10,7 @@
 }
 
 .head {
-    font-family: "Karla", sans-serif;
+    font-family: "Playfair Display", serif;;
 }
 
 .description {
@@ -29,6 +29,26 @@
     height: 80%;
     border-radius: 50%; 
     object-fit: cover; 
+    margin-top: 4em;;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 1em;
+    border: 1px solid #04030F;
+    color: #04030F;
+    width: 6em;
+}
+
+.cta:hover {
+    background-color: #9C182F;
+    border: none;
+    color: #F9F4ED;
+}
+.cta:hover::after {
+    left: 0;
 }
 
 @media (max-width: 768px) {
@@ -48,7 +68,6 @@
         justify-content: flex-start; 
         width: 70%;
         text-align: center;
-        background-color: #c4c1be;
         border-radius: 50px;
         margin: 5em auto;
         padding: 2em;
@@ -72,7 +91,7 @@
 
     .head {
         margin-top: 0; 
-        font-family: "Karla", sans-serif;
+        font-family: "Playfair Display", serif;
     }
 
     .p {

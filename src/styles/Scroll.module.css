@@ -9,12 +9,17 @@
     font-weight: 700;
     white-space: nowrap;
     margin-top: 0em; 
+    font-family: "Playfair Display", serif;
   }
   
   .scroll {
     display: inline-block;
     white-space: nowrap;
     animation: scrollScroll 20s linear infinite;
+  }
+
+  .symbol {
+    color:#9C182F;
   }
   
   @keyframes scrollScroll {
