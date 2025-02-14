@@ -9,6 +9,7 @@ export default function Contact() {
             <p className={styles.head}>Let’s create something amazing together! Drop me a message :) </p>
             <p className={styles.p}>kyannakrueger@gmail.com</p>
             <a href="www.linkedin.com/in/kyannakrueger">LinkedIn</a>
+            <a href="https://www.behance.net/kyannakrueger">Behance</a>
             {/* <div className={styles.formSection}>
               <form action="/submit" className={styles.form}>
                 <label for="name">Name:</label>
