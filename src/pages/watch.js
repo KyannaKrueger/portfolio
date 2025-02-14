@@ -8,7 +8,7 @@ export default function Vow() {
       <Nav />
       <div className={styles.main}>
         <img src="watch1.png"
-            alt="Wedding Magazines"
+            alt="a realistic drawing of a blue rolex watch"
             className={styles.image}
         />
         <div className={styles.body}>
