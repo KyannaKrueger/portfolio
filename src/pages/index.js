@@ -18,7 +18,7 @@ export default function Home() {
     <div>
       <Nav />
       <Scroll />
-      <video className={styles.bgVideo} src="landingVid1.mp4" autoPlay loop muted playsInline />
+      <video className={styles.bgVideo} src="landingVid2.mp4" autoPlay loop muted playsInline />
       <div className={styles.main}>
           {/* <div className={styles.secOne}>
             <h1 className={styles.head}>Kyanna Krueger</h1>
