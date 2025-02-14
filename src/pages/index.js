@@ -68,6 +68,12 @@ export default function Home() {
                     <span className={styles.projectName}>VOW Magazine</span>
                   </div>
                 </Link>
+                <Link href="/watch" className={styles.projectCard}>
+                  <img src="watch1.png" alt="Magazine collection" className={styles.project} />
+                  <div className={styles.overlay}>
+                    <span className={styles.projectName}>Realistic Watch Drawing</span>
+                  </div>
+                </Link>
               </>
             )}
 
