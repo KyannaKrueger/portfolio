@@ -26,7 +26,7 @@ export default function Theater() {
           />
         </div>
         <div className={styles.inspo}>
-          <img src="motion1.png"
+          <img src="motion1.1.png"
             className={styles.inspoImg}
           />
           <h2 className={styles.heading}>Backgrounds</h2>
