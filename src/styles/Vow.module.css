@@ -52,13 +52,19 @@
 
 .inspoImgs {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2em;
     padding-top: 2em;
+    align-items: center;
 }
 
 .inspoImg {
-    width: 250px;
+    width: 400px;
+    height: auto;
+}
+
+.inspoImg:hover {
+    width: 450px;
     height: auto;
 }
 
@@ -124,7 +130,7 @@
     
     .inspoImgs {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         gap: 2em;
         padding-top: 2em;

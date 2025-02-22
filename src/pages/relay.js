@@ -47,11 +47,15 @@ export default function Relay() {
                   </div>
                   <div className={styles.toc}>
                       <p className={styles.num}>06</p>
-                      <p className={styles.tocP}>Promotional Video</p>
+                      <p className={styles.tocP}>Promotional Items</p>
                   </div>
                   <div className={styles.toc}>
                         <p className={styles.num}>07</p>
                         <p className={styles.tocP}>Project Reflection</p>
+                  </div>
+                  <div className={styles.toc}>
+                        <p className={styles.num}>08</p>
+                        <p className={styles.tocP}>App Demo</p>
                   </div>
                 </div>
                 </div>
@@ -165,6 +169,11 @@ export default function Relay() {
           <div className={styles.carousel}>
             <Carousel/>
           </div>
+          <h2 className={styles.h2}>App Workflow</h2>
+          <p className={styles.marketingP}>
+            This is a map that lists all the features and how they are connected in our app. This map includes features that have already been coded, and future features we want to add such as passenger accounts.
+          </p>
+          <iframe src="https://embed.figma.com/board/UQ8HVMw4achSHFZ8b8NcGr/Relay---App-Workflow?node-id=0-1&embed-host=share" className={styles.figma} allowfullscreen></iframe>
         </div>
         <div className={styles.branding}>
           <h2 className={styles.h2}>Branding</h2>
@@ -187,6 +196,15 @@ export default function Relay() {
         <div className="video-wrapper">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iqs0Pss_1fc?si=EPphv7Y1iCxDHmS_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <h2 className={styles.h2}>Business Cards & Brochure</h2>
+        <div className={styles.promoImgCont}>
+          <img src="relay10.png"
+            className={styles.promoImg}
+            />
+            <img src="relay11.png"
+            className={styles.promoImg}
+            />
+          </div>
         </div>
         <div className={styles.reflection}>
           <h2 className={styles.h2}>Project Reflection</h2>
@@ -212,6 +230,15 @@ export default function Relay() {
               className={styles.reflectImg}
             />
           </div>
+          <div className={styles.promoVideo}>
+          <h2 className={styles.h2}>App Demo</h2>
+          <p className={styles.promoP}>
+            While our app isn't available on the app store yet, check out the features of our app with this app demonstration!
+          </p>
+          <div className="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BwlblRQnJC4?si=EaNe3Vswj3qor0jK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
         </div>
       <div className={styles.back}>
         <Back />
