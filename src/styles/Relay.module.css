@@ -8,13 +8,11 @@
     padding-right: 5em;  
 }
 
-
 .intro{
     display: flex;
     flex-direction: row;
     padding-top: 2em;
 }
-
 
 .introImg{
     width:70%;
@@ -22,30 +20,25 @@
     margin-top: -2em;
 }
 
-
 .introLeft{
     display: flex;
     flex-direction: column;
 }
-
 
 .heading{
     font-family: "Karla", sans-serif;
     margin-bottom: 0em;
 }
 
-
 .subHeading{
     font-family: "Karla", sans-serif;
 }
-
 
 .h2{
     font-family: "Karla", sans-serif;
     margin-bottom: 0em;
     padding-top: 1em;
 }
-
 
 .introP {
     text-align: left;
@@ -54,12 +47,10 @@
     font-family: "Karla", sans-serif;
 }
 
-
 .introImg {
     width: 40%;
     height: 40%;
 }
-
 
 .blogbtn {
     width: 120px;
@@ -75,9 +66,6 @@
     justify-content: center;
 }
 
-
-
-
 .toc{
     display: flex;
     flex-direction: row;
@@ -86,7 +74,6 @@
     margin-top: -2em;
     margin-bottom: -2em;;
 }
-
 
 .tocRows{
     display: flex;
@@ -100,24 +87,20 @@
     flex-direction: column;
 }
 
-
 .num{
     font-family: "Playfair Display", serif;
     font-size: 2em;
 }
 
-
 .tocP{
     font-family: "Karla", sans-serif;
 }
-
 
 .market{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .marketGroup{
     display: flex;
@@ -127,17 +110,14 @@
     align-items: center;
 }
 
-
 .marketImg{
     width: 50%;
     transition: transform 0.3s ease-in-out;
 }
 
-
 .marketImg:hover {
     transform: scale(1.05);
 }
-
 
 .marketingP{
     font-family: "Karla", sans-serif;
@@ -145,17 +125,14 @@
     text-align: center;
 }
 
-
 .hyperlink {
     color: #9C182F;
 }
-
 
 .personas{
     display: flex;
     flex-direction: column;
 }
-
 
 .personasGroup{
     display: flex;
@@ -165,22 +142,18 @@
     align-items:flex-start;
 }
 
-
 .personasTextGroupR {
     margin-left: 2em;;
 }
-
 
 .personaImg{
     width: 50%;
     transition: transform 0.3s ease-in-out;
 }
 
-
 .personaImg:hover {
     transform: scale(1.05);
 }
-
 
 .personasP{
     font-family: "Karla", sans-serif;
@@ -189,7 +162,6 @@
     margin-bottom: 0.5em;
 }
 
-
 .bigP{
     font-family: "Karla", sans-serif;
     font-size: larger;
@@ -197,12 +169,10 @@
     margin-top: 1em;
 }
 
-
 .trust{
     display: flex;
     flex-direction: row;
 }
-
 
 .reasons{
     display: flex;
@@ -210,18 +180,15 @@
     margin-right: 2em;
 }
 
-
 .trustMockup {
     width: 35%;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
-
 .trustMockup:hover {
     transform: scale(1.05);
 }
-
 
 .reasonRow{
     display: flex;
@@ -230,7 +197,6 @@
     margin-top: -2em;
 }
 
-
 .reason {
     display: flex;
     flex-direction: row;
@@ -238,12 +204,10 @@
     gap: 1.5em;
 }
 
-
 .reasonNum{
     font-family: "Playfair Display", serif;
     font-size:50px;
 }
-
 
 .reasonReal {
     font-family: "Karla", sans-serif;
@@ -252,13 +216,11 @@
     margin-right: 1.5em;
 }
 
-
 .wireframes {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .carousel {
     margin-top: 2em;
@@ -273,13 +235,11 @@
     height: 60vh;
 }
 
-
 .branding {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .brandImg {
     width: 70%;
@@ -288,11 +248,9 @@
     transition: transform 0.3s ease-in-out;
 }
 
-
 .brandImg:hover {
     transform: scale(1.05);
 }
-
 
 .brandP {
     font-family: "Karla", sans-serif;
@@ -340,14 +298,10 @@
     text-align: center;
 }
 
-
 .video {
     width: 70%;
     margin: 0 auto;
 }
-
-
-
 
 .video-wrapper {
     position: relative;
@@ -355,7 +309,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .play-button {
     position: absolute;
@@ -370,10 +323,10 @@
     display: none;
 }
 
-
 .video-wrapper:hover .play-button {
     display: block;
 }
+
 
 
 .logo {
@@ -432,6 +385,7 @@
 }
 
 
+
 .back {
     display: flex;
     justify-content: center;
@@ -440,31 +394,31 @@
     margin-bottom: 3em;
 }
 
-
-
+.logo {
+    width: 30%;
+    height: auto;
+}
 
 @media (max-width: 768px) {
     .main {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+
         max-width: 800px;
         padding: 1em;
     }
-
-
     .heading{
         font-family: "Karla", sans-serif;
         margin-bottom: 0em;
         text-align: center;
     }
-   
+
     .subHeading{
         font-family: "Karla", sans-serif;
         padding-bottom: 1em;
         text-align: center;
     }
-
 
     .introP {
         text-align: center;
@@ -473,7 +427,6 @@
         width: 100%;
     }
     
-
 
     .back {
         display: flex;
