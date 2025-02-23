@@ -28,7 +28,7 @@ export default function Relay() {
                 </div>
                 <div className={styles.toc}>
                     <p className={styles.num}>02</p>
-                    <p className={styles.tocP}>User Persona’s</p>
+                    <p className={styles.tocP}>User Personas</p>
                 </div>
                 <div className={styles.toc}>
                     <p className={styles.num}>03</p>
@@ -54,11 +54,6 @@ export default function Relay() {
                         <p className={styles.num}>08</p>
                         <p className={styles.tocP}>App Demo</p>
                   </div>
-                </div>
-                <div className={styles.toc}>
-                    <p className={styles.num}>06</p>
-                    <p className={styles.tocP}>Promotional Video</p>
-                </div>
             </div>
             <img src="relay1.png"
             className={styles.introImg}
@@ -89,7 +84,7 @@ export default function Relay() {
           </div>
         </div>
         <div className={styles.personas}>
-        <h2 className={styles.h2}>User Persona's</h2>
+        <h2 className={styles.h2}>User Personas</h2>
         <div className={styles.personasGroup}>
           <div className={styles.personasTextGroup}>
             <p className={styles.bigP}>Joseph Lim: Full-Time Software Engineer, Parent</p>
