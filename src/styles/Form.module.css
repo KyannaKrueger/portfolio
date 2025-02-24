@@ -1,0 +1,54 @@
+.formContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 1em;
+    background-color: #eae3da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 22em;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.inputField, .textareaField {
+    width: 90%;
+    max-width: 280px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #d8d0c5;
+    font-family: "Karla", sans-serif;
+    border: 1px solid #bbb;
+    text-align: left;
+}
+
+.textareaField {
+    min-height: 100px;
+    resize: none;
+}
+
+.submitButton {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 12px;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+    width: 90%;
+    max-width: 280px;
+}
+
+.submitButton:hover {
+    color: white;
+    background-color: #9C182F;
+}
