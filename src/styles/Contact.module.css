@@ -4,26 +4,16 @@
     background-color: #F9F4ED;
     color: #04030F;
     margin: 0 auto; 
-    padding-left: 5em;
-    padding-right: 5em;  
+    align-items: center;
 }
 
 .head {
     font-family: "Playfair Display", serif;
+    text-align: center;
     font-size: 2em;
     max-width: 40%;
 }
 
 .p {
     font-family: "Karla", sans-serif;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-}
-
-.submit{
-    width: 6em;
-    margin-top: 1em;
 }

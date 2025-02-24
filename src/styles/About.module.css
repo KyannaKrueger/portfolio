@@ -40,12 +40,14 @@
     border: 1px solid #04030F;
     color: #04030F;
     width: 6em;
+    font-family: "Karla", sans-serif;
 }
 
 .cta:hover {
     background-color: #9C182F;
     border: none;
     color: #F9F4ED;
+    font-family: "Karla", sans-serif;
 }
 .cta:hover::after {
     left: 0;
