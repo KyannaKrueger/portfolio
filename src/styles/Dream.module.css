@@ -8,6 +8,20 @@
     padding-right: 5em;  
 }
 
+.blogbtn {
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #533047;
+    color: white;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .body{
     display: flex;
     flex-direction: row;
@@ -113,6 +127,21 @@
         padding-bottom: 1em;
         text-align: center;
     }
+
+    .blogbtn {
+        width: 170px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #533047;
+        color: white;
+        text-decoration: none;
+        font-family: "Karla", sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     
     .p {
         text-align: center;
