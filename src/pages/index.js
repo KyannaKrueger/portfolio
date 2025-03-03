@@ -80,6 +80,12 @@ export default function Home() {
                     <span className={styles.projectName}>Void Circuit - Poster</span>
                   </div>
                 </Link>
+                <Link href="/dream" className={styles.projectCard}>
+                  <img src="magazine1.1.png" alt="a magazine on a table" className={styles.project} />
+                  <div className={styles.overlay}>
+                    <span className={styles.projectName}>Dream Scapes Magazine</span>
+                  </div>
+                </Link>
               </>
             )}
 
