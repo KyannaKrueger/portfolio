@@ -180,7 +180,7 @@ export default function Relay() {
           <img src="relay6.png"
           className={styles.brandImg}
           />
-          <h2 className={styles.h2}>Our Logo</h2>
+          <h2 className={styles.h2}>The Logo</h2>
           <img src="relay7.2.png"
           className={styles.logo}
           />

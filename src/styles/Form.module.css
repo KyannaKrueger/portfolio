@@ -42,6 +42,7 @@
     font-weight: bold;
     border: 1px solid black;
     padding: 12px;
+    margin-top: 1em;
     transition: background 0.3s ease-in-out;
     cursor: pointer;
     width: 90%;

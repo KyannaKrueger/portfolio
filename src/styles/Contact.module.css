@@ -17,3 +17,12 @@
 .p {
     font-family: "Karla", sans-serif;
 }
+
+
+.contactMethods{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 4em;
+}

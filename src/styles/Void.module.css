@@ -70,6 +70,10 @@
     margin-bottom: 3em;
 }
 
+.voidPoster {
+    width: 80%;
+}
+
 @media (max-width: 768px) {
     .main {
         display: flex;
@@ -142,4 +146,9 @@
         margin-top: 2em;
         margin-bottom: 3em;
     }
+    
+.voidPoster {
+    width: 80%;
+    align-self: center;
+}
 }

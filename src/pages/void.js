@@ -16,6 +16,7 @@ export default function Vow() {
             <h1 className={styles.heading}>Void Circuit</h1>
             <p  className={styles.subHeading}>VIDEO GAME POSTER | GRAPHIC DESIGN | DECEMBER 2024</p>
             <p className={styles.p}>This video game poster was created for a fictional video game called Void Citcuit. The poster features one of the video game characters, Nyxia, and gives potential players an idea of the futuristic world the game takes place in.</p>
+          <img src="voidPoster1.png" className={styles.voidPoster}/>
           </div>
           <img src="voidPoster.png"
           alt="A Dior exhibition poster on a tablet"
