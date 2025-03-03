@@ -17,11 +17,10 @@ export default function Relay() {
                 a hectic schedule or a new immigrant seeking to expand your network, Relay connects you with trusted 
                 families in your community—no random drivers. With safety features such as GPS Tracking, Ride specific 
                 pins and Ai powered notifications, Relay is the app that parents trust.</p>
-                <button className={styles.blogbtn}>
+                <a href="https://relay.arspera.com/" className={styles.blogbtn}>
                     Visit Blog
-                </button>
+                </a>
                 <h2 className={styles.h2}>Table of Contents</h2>
-                <p className={styles.introP}> Click on a number to jump to that section!</p>
                 <div className={styles.toc}>
                     <p className={styles.num}>01</p>
                     <p className={styles.tocP}>The Market Gap</p>
@@ -55,7 +54,7 @@ export default function Relay() {
                         <p className={styles.tocP}>App Demo</p>
                   </div>
             </div>
-            <img src="relay1.png"
+            <img src="relay1.2.png"
             className={styles.introImg}
             />
         </div>
