@@ -107,10 +107,10 @@ export default function Home() {
                     <span className={styles.projectName}>Relay Rideshare</span>
                   </div>
                 </Link>
-                <Link href="" className={styles.projectCard}>
-                  <img src="fitQuest1.png" className={styles.project} />
+                <Link href="/fit" className={styles.projectCard}>
+                  <img src="fitQuest2.1.png" className={styles.project} />
                   <div className={styles.overlay}>
-                    <span className={styles.projectName}>FitQuest - Coming Soon!</span>
+                    <span className={styles.projectName}>FitQuest</span>
                   </div>
                 </Link>
                 <Link href="/" className={styles.projectCard}>
