@@ -1,3 +1,60 @@
+/* Splash stuff */
+.pageContainer {
+  position: relative;
+}
+
+.splashScreen {
+  display: flex;
+  flex-direction: row;
+  background-color: #F9F4ED;
+  justify-content: center;
+  align-items: center;
+  color: #04030F;
+  margin: 0 auto;
+  height: 100vh;
+  padding-left: 5em;
+  padding-right: 5em;
+  transition: opacity 0.8s ease;
+}
+
+.splashRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.splashImg {
+  width: 50%;
+}
+
+.pSplash {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  font-family: "Karla", sans-serif;
+}
+
+.enterButton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 1em;
+    border: 1px solid #04030F;
+    color: #04030F;
+    width: 10em;
+    font-family: "Karla", sans-serif;
+}
+
+.enterButton:hover {
+    background-color: #9C182F;
+    border: none;
+    color: #F9F4ED;
+    font-family: "Karla", sans-serif;
+}
+
+
+/* main index */
 .main {
     display: flex;
     flex-direction: column;
