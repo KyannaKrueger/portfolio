@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from 'next/router';
 import Link from "next/link"; 
 import Nav from '../components/molecules/Nav';
 import styles from '../styles/Index.module.css';
@@ -9,7 +10,8 @@ import { Nunito } from 'next/font/google';
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState("graphicDesign");
-  const [showSplash, setShowSplash] = useState(true); 
+  const [showSplash, setShowSplash] = useState(false);
+  const router = useRouter();
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
@@ -17,20 +19,27 @@ export default function Home() {
 
   const handleEnterClick = () => {
     setShowSplash(false);
+    localStorage.setItem("hasVisited", "true"); 
   };
+
+  useEffect(() => {
+    if (!localStorage.getItem("hasVisited")) {
+      setShowSplash(true); 
+    } else {
+      setShowSplash(false); 
+    }
+  }, []); 
 
   return (
     <div className={styles.pageContainer}>
       {showSplash && (
         <div className={styles.splashScreen}>
-          {/* <div className={styles.splashLeft}>
-          </div> */}
           <div className={styles.splashRight}>
-            <img className={styles.splashImg} src="blackLogo1.1.svg"/>
+            <img className={styles.splashImg} src="blackLogo1.1.svg" alt="Logo" />
             <p className={styles.pSplash}>KYANNA KRUEGER</p>
             <p className={styles.pSplash}>Graphic Designer | Digital Marketer</p>
             <button className={styles.enterButton} onClick={handleEnterClick}>
-            Enter Portfolio
+              Enter Portfolio
             </button>
           </div>
         </div>
@@ -87,57 +96,7 @@ export default function Home() {
                   <Link href="/watch" className={styles.projectCard}>
                     <img src="watch1.png" alt="Realistic drawing of a blue rolex watch" className={styles.project} />
                     <div className={styles.overlay}>
-                      <span className={styles.projectName}>Realistic Watch Drawing</span>
-                    </div>
-                  </Link>
-                  <Link href="/void" className={styles.projectCard}>
-                    <img src="voidBanner.png" alt="a video game poster" className={styles.project} />
-                    <div className={styles.overlay}>
-                      <span className={styles.projectName}>Void Circuit - Poster</span>
-                    </div>
-                  </Link>
-                  <Link href="/dream" className={styles.projectCard}>
-                    <img src="magazine1.1.png" alt="a magazine on a table" className={styles.project} />
-                    <div className={styles.overlay}>
-                      <span className={styles.projectName}>Dream Scapes Magazine</span>
-                    </div>
-                  </Link>
-                </>
-              )}
-
-              {activeCategory === "motionGraphics" && (
-                <Link href="/theater" className={styles.projectCard}>
-                  <img src="motion4.png" alt="Graphic of a theatre" className={styles.project} />
-                  <div className={styles.overlay}>
-                    <span className={styles.projectName}>Theater Etiquette</span>
-                  </div>
-                </Link>
-              )}
-
-              {activeCategory === "uiux" && (
-                <>
-                  <Link href="/relay" className={styles.projectCard}>
-                    <img src="relay8.png" className={styles.project} />
-                    <div className={styles.overlay}>
-                      <span className={styles.projectName}>Relay Rideshare</span>
-                    </div>
-                  </Link>
-                  <Link href="/fit" className={styles.projectCard}>
-                    <img src="fitQuest2.1.png" className={styles.project} />
-                    <div className={styles.overlay}>
-                      <span className={styles.projectName}>FitQuest</span>
-                    </div>
-                  </Link>
-                  <Link href="/" className={styles.projectCard}>
-                    <img src="quack1.png" className={styles.project} />
-                    <div className={styles.overlay}>
-                      <span className={styles.projectName}>Quack Attack - Coming Soon!</span>
-                    </div>
-                  </Link>
-                  <Link href="/" className={styles.projectCard}>
-                    <img src="zara1.png" className={styles.project} />
-                    <div className={styles.overlay}>
-                      <span className={styles.projectName}>Zara VS Aritzia UI/UX Analysis - Coming Soon!</span>
+                      <span className={styles.projectName}>Realistic Rolex</span>
                     </div>
                   </Link>
                 </>
