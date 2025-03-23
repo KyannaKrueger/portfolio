@@ -15,6 +15,11 @@
   padding-left: 5em;
   padding-right: 5em;
   transition: opacity 0.8s ease;
+  gap: 10em;
+}
+
+.splashVideo {
+  width: 90%;
 }
 
 .splashRight {
@@ -198,6 +203,29 @@
         margin: 0 auto; 
         padding-left: 2em;
         padding-right: 2em;  
+    }
+
+    .splashScreen {
+      display: flex;
+      flex-direction: column;
+      background-color: #F9F4ED;
+      justify-content: center;
+      align-items: center;
+      color: #04030F;
+      margin: 0 auto;
+      height: 100vh;
+      padding-left: 5em;
+      padding-right: 5em;
+      transition: opacity 0.8s ease;
+      gap: 0em;
+    }
+
+    .splashRight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 2em;
     }
 
     .projects {
