@@ -30,7 +30,7 @@ export default function Sparq() {
             <img src="can1.png"
             alt="An alcholic can sitting on a patio table"
             className={styles.dieline}
-            /><img src="can2.png"
+            /><img src="can2.1.png"
             alt="An alcholic can sitting on a patio table"
             className={styles.dieline}
             /><img src="can3.png"

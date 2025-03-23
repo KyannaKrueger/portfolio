@@ -14,6 +14,9 @@ export default function Fit() {
           <div className={styles.writing}>
             <h1 className={styles.heading}>FitQuest</h1>
             <p  className={styles.subHeading}>FITNESS APP | UI/UX | JANUARY - MAY 2024</p>
+            <a href="https://fitquest-d3.vercel.app/" className={styles.blogbtn}>
+                    Try App!
+                </a>
             <p className={styles.p}>FitQuest is an innovative web application designed to make at-home fitness more accessible and engaging. </p>
             <p className={styles.p}> Beyond workouts, FitQuest offers a variety of health and nutrition articles to support a well-rounded fitness journey. Designed with young people and remote workers in mind, FitQuest helps busy individuals prioritize their health without leaving home.</p>
             <p className={styles.p}>A standout feature of FitQuest is its built-in language translation, enabling seamless switching between English and Chinese for a more inclusive experience.</p>

@@ -11,8 +11,8 @@ export default function Contact() {
             <Form className={styles.form}/>
             <div className={styles.contactMethods}>
               <p className={styles.p}>kyannakrueger@gmail.com</p>
-              <p>LinkedIn: Kyanna Krueger</p>
-              <a href="https://www.behance.net/kyannakrueger">Behance</a>
+              <p className={styles.p}>LinkedIn: Kyanna Krueger</p>
+              <a href="https://www.behance.net/kyannakrueger" className={styles.p}>Behance</a>
             </div>
         </div>
       </div>

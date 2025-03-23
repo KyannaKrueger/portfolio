@@ -14,6 +14,22 @@
     padding-top: 2em;
 }
 
+.blogbtn {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #533047;
+    color: white;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
 .image {
     width: 100%;
     margin: 0 auto;
@@ -82,6 +98,22 @@
     .image {
         width: 100%;
         margin: 0 auto;
+    }
+
+    .blogbtn {
+        width: 120px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #533047;
+        color: white;
+        text-decoration: none;
+        font-family: "Karla", sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1em;
+        margin-bottom: 2em;
     }
     
     .tabletImage {
