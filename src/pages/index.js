@@ -34,6 +34,9 @@ export default function Home() {
     <div className={styles.pageContainer}>
       {showSplash && (
         <div className={styles.splashScreen}>
+          <div className={styles.splashLeft}>
+          <video className={styles.splashVideo} src="splashVid2.mp4" autoPlay loop muted playsInline />
+          </div>
           <div className={styles.splashRight}>
             <img className={styles.splashImg} src="blackLogo1.1.svg" alt="Logo" />
             <p className={styles.pSplash}>KYANNA KRUEGER</p>
