@@ -24,8 +24,13 @@
 
 .body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 2em;
+}
+
+.rowCont{
+    display: flex;
+    flex-direction: row;
 }
 
 .image {
@@ -62,6 +67,11 @@
     height: 30%;
     margin: 0 auto;   
     display: block;   
+}
+
+.spread {
+    width: 50%;
+    margin-top: 1em;
 }
 
 .inspoImgs {

@@ -99,7 +99,57 @@ export default function Home() {
                   <Link href="/watch" className={styles.projectCard}>
                     <img src="watch1.png" alt="Realistic drawing of a blue rolex watch" className={styles.project} />
                     <div className={styles.overlay}>
-                      <span className={styles.projectName}>Realistic Rolex</span>
+                      <span className={styles.projectName}>Realistic Watch Drawing</span>
+                    </div>
+                  </Link>
+                  <Link href="/void" className={styles.projectCard}>
+                    <img src="voidBanner.png" alt="a video game poster" className={styles.project} />
+                    <div className={styles.overlay}>
+                      <span className={styles.projectName}>Void Circuit - Poster</span>
+                    </div>
+                  </Link>
+                  <Link href="/dream" className={styles.projectCard}>
+                    <img src="magazine1.1.png" alt="a magazine on a table" className={styles.project} />
+                    <div className={styles.overlay}>
+                      <span className={styles.projectName}>Dream Scapes Magazine</span>
+                    </div>
+                  </Link>
+                </>
+              )}
+
+              {activeCategory === "motionGraphics" && (
+                <Link href="/theater" className={styles.projectCard}>
+                  <img src="motion4.png" alt="Graphic of a theatre" className={styles.project} />
+                  <div className={styles.overlay}>
+                    <span className={styles.projectName}>Theater Etiquette</span>
+                  </div>
+                </Link>
+              )}
+
+              {activeCategory === "uiux" && (
+                <>
+                  <Link href="/relay" className={styles.projectCard}>
+                    <img src="relay8.png" className={styles.project} />
+                    <div className={styles.overlay}>
+                      <span className={styles.projectName}>Relay Rideshare</span>
+                    </div>
+                  </Link>
+                  <Link href="/fit" className={styles.projectCard}>
+                    <img src="fitQuest2.1.png" className={styles.project} />
+                    <div className={styles.overlay}>
+                      <span className={styles.projectName}>FitQuest</span>
+                    </div>
+                  </Link>
+                  <Link href="/" className={styles.projectCard}>
+                    <img src="quack1.png" className={styles.project} />
+                    <div className={styles.overlay}>
+                      <span className={styles.projectName}>Quack Attack - Coming Soon!</span>
+                    </div>
+                  </Link>
+                  <Link href="/" className={styles.projectCard}>
+                    <img src="zara1.png" className={styles.project} />
+                    <div className={styles.overlay}>
+                      <span className={styles.projectName}>Zara VS Aritzia UI/UX Analysis - Coming Soon!</span>
                     </div>
                   </Link>
                 </>
