@@ -154,6 +154,7 @@
     position: relative;
     display: inline-block;
     overflow: hidden;
+    aspect-ratio: 16 / 9;
   }
   
   .project {
