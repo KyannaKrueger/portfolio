@@ -56,6 +56,12 @@ export default function Home() {
         <div className={styles.gallery}>
           {activeCategory === "graphicDesign" && (
             <>
+               <Link href="/pomo" className={styles.projectCard}>
+                <img src="Program guide mockup.png" className={styles.project} alt="PoMoArts guide" />
+                <div className={styles.overlay}>
+                  <span className={styles.projectName}>PoMoArts</span>
+                </div>
+              </Link>
               <Link href="/dior" className={styles.projectCard}>
                 <img src="Dior 1920x1080.png" alt="A Dior exhibition poster at a bus stop" className={styles.project} />
                 <div className={styles.overlay}>
@@ -90,12 +96,6 @@ export default function Home() {
                 <img src="magazine1.1.png" alt="a magazine on a table" className={styles.project} />
                 <div className={styles.overlay}>
                   <span className={styles.projectName}>Dream Scapes Magazine</span>
-                </div>
-              </Link>
-              <Link href="/pomo" className={styles.projectCard}>
-                <img src="Program guide mockup.png" className={styles.project} alt="PoMoArts guide" />
-                <div className={styles.overlay}>
-                  <span className={styles.projectName}>PoMoArts - Work in progress!</span>
                 </div>
               </Link>
             </>
